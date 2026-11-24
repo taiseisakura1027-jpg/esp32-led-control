@@ -1,0 +1,7 @@
+const button = document.getElementById("ledOffButton");
+const status = document.getElementById("status");
+
+button.addEventListener("click", function() {
+  status.textContent = "LED OFF COMMAND";
+  alert("消灯命令の送信機能は次の作業で追加します。");
+});
